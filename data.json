@@ -1,0 +1,374 @@
+{
+    "categories": {
+      "watches": [
+        {
+          "id": "w1",
+          "name": "Classic Leather Watch",
+          "image": "./images/watches/analog-watch-ge75516998_1280.jpg",
+          "description": "A timeless leather watch with a stainless steel case.",
+          "price": 99.99,
+          "discountedPrice": null,
+          "rating": 4.5,
+          "type": "wrist"
+        },
+        {
+          "id": "w2",
+          "name": "Rolex Watch",
+          "image": "./images/watches/rolex-g07a5c358f_1280.jpg",
+          "description": "The Ultimate Rolex watch.",
+          "price": 129.99,
+          "discountedPrice": null,
+          "rating": 4.8,
+          "type": "wrist"
+        },
+        {
+            "id": "w3",
+            "name": "Rolex GMT-Master",
+            "image": "./images/watches/rolex-ge38de63be_1280.jpg",
+            "description": "Stainless steel watch.",
+            "price": 105.00,
+            "discountedPrice": null,
+            "rating": 4.5,
+            "type": "wrist"
+          },
+          {
+            "id": "w4",
+            "name": "Omax ",
+            "image": "./images/watches/male-watch-g1296630e9_1280.jpg",
+            "description": "Stylish watch from Omax.",
+            "price": 99.99,
+            "discountedPrice": null,
+            "rating": 4.5,
+            "type": "wrist"
+          },
+          {
+            "id": "w5",
+            "name": "Pocket Watch",
+            "image": "./images/watches/clock-gc378807a8_1280.jpg",
+            "description": "Beautiful pocket watch.",
+            "price": 89.99,
+            "discountedPrice": null,
+            "rating": 4.5,
+            "type": "pocket"
+          },
+          {
+            "id": "w6",
+            "name": "Smart Watch",
+            "image": "./images/watches/smart-watch-gdc4bb20dd_1280.jpg",
+            "description": "Apple Smart Watch.",
+            "price": 119.99,
+            "discountedPrice": null,
+            "rating": 4.5,
+            "type": "smart"
+          },
+          {
+            "id": "w7",
+            "name": "Classic Watch",
+            "image": "./images/watches/wrist-watch-g18aa3be63_1280.jpg",
+            "description": "Beautiful stilysh watch from Fossil.",
+            "price": 99.99,
+            "discountedPrice": null,
+            "rating": 4.5,
+            "type": "wrist"
+          },
+          {
+            "id": "w8",
+            "name": "Maurice Lacroix",
+            "image": "./images/watches/wrist-watch-g495ed5a41_1280.jpg",
+            "description": "Maurice Lacroix luxury watch.",
+            "price": 60.00,
+            "discountedPrice": null,
+            "rating": 4.5,
+            "type": "wrist"
+          },
+          {
+            "id": "w9",
+            "name": "Classic Watch",
+            "image": "./images/watches/wrist-watch-g92040b524_1280.jpg",
+            "description": "Classic watch from Rider.",
+            "price": 129.99,
+            "discountedPrice": null,
+            "rating": 4.5,
+            "type": "wrist"
+          },
+          {
+            "id": "w10",
+            "name": "Vintage pocket watch",
+            "image": "./images/watches/pocket-watch-gec8ddb379_1280.jpg",
+            "description": "Beautiful vintage pocket watch.",
+            "price": 299.99,
+            "discountedPrice": null,
+            "rating": 4.5,
+            "type": "pocket"
+          },
+          {
+            "id": "w11",
+            "name": "Fossil",
+            "image": "./images/watches/wrist-watch-gf1777cee4_1280.jpg",
+            "description": "Another classic watch from Fossil.",
+            "price": 199.99,
+            "discountedPrice": null,
+            "rating": 4.5,
+            "type": "wrist"
+          },
+          {
+            "id": "w12",
+            "name": "Classic Leather Watch",
+            "image": "./images/watches/wristwatch-g6823d5d89_1280.jpg",
+            "description": "Elegant watch from Festina.",
+            "price": 99.99,
+            "discountedPrice": null,
+            "rating": 4.5,
+            "type": "wrist"
+          }
+      ],
+      "jewelries": [
+        {
+          "id": "j1",
+          "name": "Elegant Diamond Necklace",
+          "image": "./images/jewelries/necklace-g0b04d23f8_1280.jpg",
+          "description": "An elegant necklace with sparkling diamonds.",
+          "price": 299.99,
+          "discountedPrice": null,
+          "rating": 4.7,
+          "category": "necklace"
+
+        },
+        {
+          "id": "j2",
+          "name": "Bracelet",
+          "image": "./images/jewelries/bracelet-gd05d2c82d_1280.jpg",
+          "description": "A beautiful  bracelet for any occasion.",
+          "price": 79.99,
+          "discountedPrice": null,
+          "rating": 4.3,
+          "category": "bracelet"
+        },
+        {
+            "id": "j3",
+            "name": "Amethyst ring",
+            "image": "./images/jewelries/amethyst-gfdbc731e5_1280.jpg",
+            "description": "An elegant Amethyst ring with sparkling diamonds.",
+            "price": 299.99,
+            "discountedPrice": null,
+            "rating": 4.7,
+            "category": "ring"
+          },
+          {
+            "id": "j4",
+            "name": "Bangle",
+            "image": "./images/jewelries/bangle-gc33e30d31_1280.jpg",
+            "description": "A beautiful Bangle.",
+            "price": 79.99,
+            "discountedPrice": null,
+            "rating": 4.3,
+            "category":"bracelet"
+          },
+          {
+            "id": "j5",
+            "name": "Crown",
+            "image": "./images/jewelries/crown-g5ce02adaa_1280.jpg",
+            "description": "A beautiful crown with diamonds.",
+            "price": 299.99,
+            "discountedPrice": null,
+            "rating": 4.7,
+            "category": "crown"
+          },
+          {
+            "id": "j6",
+            "name": "Decor",
+            "image": "./images/jewelries/decor-gd4ffd39a7_1280.jpg",
+            "description": "A beautiful decor.",
+            "price": 79.99,
+            "discountedPrice": null,
+            "rating": 4.3,
+            "category": "decor"
+          },
+          {
+            "id": "j7",
+            "name": "Diamond",
+            "image": "./images/jewelries/diamond-g341b86303_1280.jpg",
+            "description": "Shiny Diamond.",
+            "price": 299.99,
+            "discountedPrice": null,
+            "rating": 4.7,
+            "category": "decor"
+          },
+          {
+            "id": "j8",
+            "name": "Golden Jewelries",
+            "image": "./images/jewelries/indian-g4552b8050_1280.jpg",
+            "description": "Idnian golden jewelries.",
+            "price": 79.99,
+            "discountedPrice": null,
+            "rating": 4.3,
+            "category":"bracelet"
+          },
+          {
+            "id": "j9",
+            "name": "Heart Necklace",
+            "image": "./images/jewelries/necklace-g4b5925aca_1280.jpg",
+            "description": "An elegant heart shaped necklace .",
+            "price": 299.99,
+            "discountedPrice": null,
+            "rating": 4.7,
+            "category":"necklace"
+          },
+          {
+            "id": "j10",
+            "name": "Pendant",
+            "image": "./images/jewerlies/pendant-gc9f4f6b98_1280.jpg",
+            "description": "A beautiful pendant heart shaped with crown on top of it.",
+            "price": 79.99,
+            "discountedPrice": null,
+            "rating": 4.3,
+            "category":"necklace"
+          },
+          {
+            "id": "j11",
+            "name": "Beautiful Ring",
+            "image": "./images/jewerlies/ring-g43d89f099_1280.jpg",
+            "description": "An elegant ring with sparkling diamonds.",
+            "price": 299.99,
+            "discountedPrice": null,
+            "rating": 4.7,
+            "category":"ring"
+          },
+          {
+            "id": "j12",
+            "name": "The One Ring ",
+            "image": "./images/jewerlies/ring-g94466ef35_1280.jpg",
+            "description": "One ring to rule them all.",
+            "price": 79.99,
+            "discountedPrice": null,
+            "rating": 4.3,
+            "category":"ring"
+          }
+        
+      ],
+      "glasses": [
+        {
+          "id": "g1",
+          "name": "Women Sunglasses",
+          "image": "./images/glasses/woman-g26554b39b_1280.jpg",
+          "description": "Fashionable sunglasses for a trendy look.",
+          "price": 39.99,
+          "discountedPrice": null,
+          "rating": 4.4,
+          "target": "women"
+        },
+        {
+          "id": "g2",
+          "name": "Stylish Sunglasses",
+          "image": "./images/glasses/accessory-gf473a8e85_1280.jpg",
+          "description": "Fashionable sunglasses with pink glasses.",
+          "price": 59.99,
+          "discountedPrice": null,
+          "rating": 4.6,
+          "target": "women"
+        },
+        {
+            "id": "g3",
+            "name": "Aviator",
+            "image": "./images/glasses/aviator-sunglasses-ge3c4c363c_1280.jpg",
+            "description": "A high-quality Aviator sunglasses.",
+            "price": 39.99,
+            "discountedPrice": null,
+            "rating": 4.4,
+            "target": "men"
+          },
+          {
+            "id": "g4",
+            "name": "Stylish Glasses",
+            "image": "./images/glasses/glasses-g8b8393784_1280.jpg",
+            "description": "Stylish glasses to read your favourites books.",
+            "price": 59.99,
+            "discountedPrice": null,
+            "rating": 4.6,
+            "target": "unisex"
+          },
+          {
+            "id": "g5",
+            "name": "Summer",
+            "image": "./images/glasses/summer-g52d6873b8_1280.jpg",
+            "description": "Summer trendy glasses.",
+            "price": 39.99,
+            "discountedPrice": null,
+            "rating": 4.4,
+            "target": "women"
+          },
+          {
+            "id": "g6",
+            "name": "Vintage Sunglasses",
+            "image": "./images/glasses/sunglasses-g75f93880c_1280.jpg",
+            "description": "Vintage sunglasses for a trendy look.",
+            "price": 59.99,
+            "discountedPrice": null,
+            "rating": 4.6,
+            "target": "women"
+          },
+          {
+            "id": "g7",
+            "name": "Men Sunglasses",
+            "image": "./images/glasses/sunglasses-g592e5a5a7_1280.jpg",
+            "description": "A high-quality sunglasses for men.",
+            "price": 39.99,
+            "discountedPrice": null,
+            "rating": 4.4,
+            "target": "men"
+          },
+          {
+            "id": "g8",
+            "name": "Sports Sunglasses",
+            "image": "./images/glasses/sunglasses-g796ec14cb_1280.jpg",
+            "description": "Sports Sunglasses for your daily activities.",
+            "price": 59.99,
+            "discountedPrice": null,
+            "rating": 4.6,
+            "target":"unisex"
+          },
+          {
+            "id": "g9",
+            "name": "Elegant Sunglasses",
+            "image": "./images/glasses/sunglasses-gaf56f27a3_1280.jpg",
+            "description": "A high-quality Elegant Sunglasses.",
+            "price": 39.99,
+            "discountedPrice": null,
+            "rating": 4.4,
+            "target":"unisex"
+          },
+          {
+            "id": "g10",
+            "name": "Stylish Sunglasses",
+            "image": "./images/glasses/sunglasses-gd12d09a82_1280.jpg",
+            "description": "Fashionable sunglasses for a trendy look.",
+            "price": 59.99,
+            "discountedPrice": null,
+            "rating": 4.6,
+            "target":"unisex"
+          },
+          {
+            "id": "g11",
+            "name": "Men Sports Sunglasses",
+            "image": "./images/glasses/sunglasses-gf00b44f1c_1280.jpg",
+            "description": "A high-quality sports look sunglasses.",
+            "price": 39.99,
+            "discountedPrice": null,
+            "rating": 4.4,
+            "target":"men"
+          },
+          {
+            "id": "g12",
+            "name": "Wood Frames Sunglasses",
+            "image": "./images/glasses/wood-sunglasses-g27b8aab34_1280.jpg",
+            "description": "Fashionable wood frames sunglasses for a trendy look.",
+            "price": 59.99,
+            "discountedPrice": null,
+            "rating": 4.6,
+            "target":"men"
+          }
+        
+      ]
+    }
+  }
+  

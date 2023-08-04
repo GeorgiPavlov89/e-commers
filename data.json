@@ -9,7 +9,8 @@
           "price": 99.99,
           "discountedPrice": null,
           "rating": 4.5,
-          "type": "wrist"
+          "type": "wrist",
+          "material": "steel"
         },
         {
           "id": "w2",
@@ -19,7 +20,8 @@
           "price": 129.99,
           "discountedPrice": null,
           "rating": 4.8,
-          "type": "wrist"
+          "type": "wrist",
+          "material": "steel"
         },
         {
             "id": "w3",
@@ -29,17 +31,19 @@
             "price": 105.00,
             "discountedPrice": null,
             "rating": 4.5,
-            "type": "wrist"
+            "type": "wrist",
+            "material": "steel"
           },
           {
             "id": "w4",
-            "name": "Omax ",
+            "name": "Breitling",
             "image": "./images/watches/male-watch-g1296630e9_1280.jpg",
-            "description": "Stylish watch from Omax.",
+            "description": "Stylish watch from Breitling.",
             "price": 99.99,
             "discountedPrice": null,
             "rating": 4.5,
-            "type": "wrist"
+            "type": "wrist",
+            "material": "steel"
           },
           {
             "id": "w5",
@@ -49,7 +53,8 @@
             "price": 89.99,
             "discountedPrice": null,
             "rating": 4.5,
-            "type": "pocket"
+            "type": "pocket",
+            "material": "gold"
           },
           {
             "id": "w6",
@@ -59,7 +64,8 @@
             "price": 119.99,
             "discountedPrice": null,
             "rating": 4.5,
-            "type": "smart"
+            "type": "smart",
+            "material": "steel"
           },
           {
             "id": "w7",
@@ -69,7 +75,8 @@
             "price": 99.99,
             "discountedPrice": null,
             "rating": 4.5,
-            "type": "wrist"
+            "type": "wrist",
+            "material": "steel"
           },
           {
             "id": "w8",
@@ -79,7 +86,8 @@
             "price": 60.00,
             "discountedPrice": null,
             "rating": 4.5,
-            "type": "wrist"
+            "type": "wrist",
+            "material": "bronze"
           },
           {
             "id": "w9",
@@ -89,7 +97,8 @@
             "price": 129.99,
             "discountedPrice": null,
             "rating": 4.5,
-            "type": "wrist"
+            "type": "wrist",
+            "material": "bronze"
           },
           {
             "id": "w10",
@@ -99,7 +108,8 @@
             "price": 299.99,
             "discountedPrice": null,
             "rating": 4.5,
-            "type": "pocket"
+            "type": "pocket",
+            "material": "bronze"
           },
           {
             "id": "w11",
@@ -109,7 +119,8 @@
             "price": 199.99,
             "discountedPrice": null,
             "rating": 4.5,
-            "type": "wrist"
+            "type": "wrist",
+            "material": "bronze"
           },
           {
             "id": "w12",
@@ -119,7 +130,8 @@
             "price": 99.99,
             "discountedPrice": null,
             "rating": 4.5,
-            "type": "wrist"
+            "type": "wrist",
+            "material": "steel"
           }
       ],
       "jewelries": [

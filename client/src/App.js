@@ -9,9 +9,10 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Header />
       <CategoryProvider>
+        <Header />
         <Routes>
+          <Route path="/" element={<Layout />} />
           <Route path="/watches" element={<Watches />} />
         </Routes>
       </CategoryProvider>

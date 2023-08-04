@@ -6,6 +6,29 @@ body {
   .logo {
     display: none;
   }
+  
+  .product-card-image {
+    height: auto; 
+    width: auto !important;
+    object-fit: cover;
+  }
+  .filter-desktop {
+    display: none;
+  }
+  .filter-modal {
+    display: inline-block !important;
+   
+  }
+  .sortMobile {
+    display: flex;
+    justify-content: center;
+  }
+  .filterMobile {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
 }
 
 .sticky-header {
@@ -13,6 +36,24 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  
+  position:sticky ;
 }
+
+.product-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+   gap: .5rem;
+}
+
+.product-card-col {
+  max-width: 40%; 
+}
+
+
+
+.filter-modal {
+  display: none 
+}
+
 

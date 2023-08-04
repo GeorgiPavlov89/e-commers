@@ -6,21 +6,23 @@ import {
   MDBCardText,
   MDBCardImage,
   MDBBtn,
-  MDBRow,
-  MDBCol,
+  MDBCardFooter,
+  MDBCardGroup,
 } from "mdb-react-ui-kit";
-function ProductCard({ name, description, image }) {
+function ProductCard({ name, description, image, price }) {
   return (
-    <MDBCol sm="3">
-      <MDBCard>
-        <MDBCardImage src={image} position="top" alt="..." />
-        <MDBCardBody>
-          <MDBCardTitle>{name}</MDBCardTitle>
-          <MDBCardText>{description}</MDBCardText>
-          <MDBBtn href="#">Button</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </MDBCol>
+    <MDBCard className="h-100">
+      <MDBCardImage src={image} position="top" alt="product-image" />
+
+      <MDBCardBody>
+        <MDBCardTitle>{name}</MDBCardTitle>
+        <MDBCardText>{description}</MDBCardText>
+        <MDBCardText>{price} $</MDBCardText>
+      </MDBCardBody>
+      <MDBCardFooter className="d-flex justify-content-center">
+        <MDBBtn href="#">Add to Cart</MDBBtn>
+      </MDBCardFooter>
+    </MDBCard>
   );
 }
 

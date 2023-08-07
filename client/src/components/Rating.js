@@ -3,7 +3,6 @@ import React from "react";
 const Rating = ({ rating }) => {
   const roundedRating = Math.round(rating);
   const maxStars = 5;
-  console.log(rating);
 
   const renderStars = () => {
     const stars = [];

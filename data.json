@@ -8,9 +8,10 @@
           "description": "A timeless leather watch with a stainless steel case.",
           "price": 99.99,
           "discountedPrice": null,
-          "rating": 4.5,
-          "type": "wrist",
-          "material": "steel"
+          "rating": 4,
+          "category": "wrist",
+          "material": "steel",
+          "brand": "rider"
         },
         {
           "id": "w2",
@@ -19,9 +20,10 @@
           "description": "The Ultimate Rolex watch.",
           "price": 129.99,
           "discountedPrice": null,
-          "rating": 4.8,
-          "type": "wrist",
-          "material": "steel"
+          "rating": 3,
+          "category": "wrist",
+          "material": "steel",
+          "brand": "rolex"
         },
         {
             "id": "w3",
@@ -30,9 +32,10 @@
             "description": "Stainless steel watch.",
             "price": 105.00,
             "discountedPrice": null,
-            "rating": 4.5,
-            "type": "wrist",
-            "material": "steel"
+            "rating": 4,
+            "category": "wrist",
+            "material": "steel",
+            "brand": "rolex"
           },
           {
             "id": "w4",
@@ -41,9 +44,10 @@
             "description": "Stylish watch from Breitling.",
             "price": 99.99,
             "discountedPrice": null,
-            "rating": 4.5,
-            "type": "wrist",
-            "material": "steel"
+            "rating": 5,
+            "category": "wrist",
+            "material": "steel",
+            "brand": "breitling"
           },
           {
             "id": "w5",
@@ -52,9 +56,10 @@
             "description": "Beautiful pocket watch.",
             "price": 89.99,
             "discountedPrice": null,
-            "rating": 4.5,
-            "type": "pocket",
-            "material": "gold"
+            "rating": 1,
+            "category": "pocket",
+            "material": "gold",
+            "brand" : "breguet"
           },
           {
             "id": "w6",
@@ -63,9 +68,10 @@
             "description": "Apple Smart Watch.",
             "price": 119.99,
             "discountedPrice": null,
-            "rating": 4.5,
-            "type": "smart",
-            "material": "steel"
+            "rating": 3,
+            "category": "smart",
+            "material": "steel",
+            "brand" : "apple"
           },
           {
             "id": "w7",
@@ -74,9 +80,10 @@
             "description": "Beautiful stilysh watch from Fossil.",
             "price": 99.99,
             "discountedPrice": null,
-            "rating": 4.5,
-            "type": "wrist",
-            "material": "steel"
+            "rating": 4,
+            "category": "wrist",
+            "material": "steel",
+            "brand" : "fossil"
           },
           {
             "id": "w8",
@@ -85,9 +92,10 @@
             "description": "Maurice Lacroix luxury watch.",
             "price": 60.00,
             "discountedPrice": null,
-            "rating": 4.5,
-            "type": "wrist",
-            "material": "bronze"
+            "rating": 5,
+            "category": "wrist",
+            "material": "bronze",
+            "brand" : "maurice lacroix"
           },
           {
             "id": "w9",
@@ -96,9 +104,10 @@
             "description": "Classic watch from Rider.",
             "price": 129.99,
             "discountedPrice": null,
-            "rating": 4.5,
-            "type": "wrist",
-            "material": "bronze"
+            "rating": 3,
+            "category": "wrist",
+            "material": "bronze",
+            "brand" : "rider"
           },
           {
             "id": "w10",
@@ -107,9 +116,10 @@
             "description": "Beautiful vintage pocket watch.",
             "price": 299.99,
             "discountedPrice": null,
-            "rating": 4.5,
-            "type": "pocket",
-            "material": "bronze"
+            "rating": 5,
+            "category": "pocket",
+            "material": "bronze",
+            "brand" : "bulova"
           },
           {
             "id": "w11",
@@ -118,9 +128,10 @@
             "description": "Another classic watch from Fossil.",
             "price": 199.99,
             "discountedPrice": null,
-            "rating": 4.5,
-            "type": "wrist",
-            "material": "bronze"
+            "rating": 4,
+            "category": "wrist",
+            "material": "bronze",
+            "brand" :"fossil"
           },
           {
             "id": "w12",
@@ -129,9 +140,10 @@
             "description": "Elegant watch from Festina.",
             "price": 99.99,
             "discountedPrice": null,
-            "rating": 4.5,
-            "type": "wrist",
-            "material": "steel"
+            "rating": 4,
+            "category": "wrist",
+            "material": "steel",
+            "brand": "festina"
           }
       ],
       "jewelries": [
@@ -140,10 +152,12 @@
           "name": "Elegant Diamond Necklace",
           "image": "./images/jewelries/necklace-g0b04d23f8_1280.jpg",
           "description": "An elegant necklace with sparkling diamonds.",
-          "price": 299.99,
+          "price": 599.99,
           "discountedPrice": null,
-          "rating": 4.7,
-          "category": "necklace"
+          "rating": 4,
+          "category": "necklace",
+          "material" :"diamond",
+          "brand" : "tamara comolli"
 
         },
         {
@@ -151,20 +165,24 @@
           "name": "Bracelet",
           "image": "./images/jewelries/bracelet-gd05d2c82d_1280.jpg",
           "description": "A beautiful  bracelet for any occasion.",
-          "price": 79.99,
+          "price": 129.99,
           "discountedPrice": null,
-          "rating": 4.3,
-          "category": "bracelet"
+          "rating": 3,
+          "category": "bracelet",
+          "material" :"gold",
+          "brand" : "boucheron"
         },
         {
             "id": "j3",
             "name": "Amethyst ring",
             "image": "./images/jewelries/amethyst-gfdbc731e5_1280.jpg",
             "description": "An elegant Amethyst ring with sparkling diamonds.",
-            "price": 299.99,
+            "price": 319.99,
             "discountedPrice": null,
-            "rating": 4.7,
-            "category": "ring"
+            "rating": 2,
+            "category": "ring",
+            "material" :"diamond",
+            "brand" : "messika"
           },
           {
             "id": "j4",
@@ -173,28 +191,34 @@
             "description": "A beautiful Bangle.",
             "price": 79.99,
             "discountedPrice": null,
-            "rating": 4.3,
-            "category":"bracelet"
+            "rating": 5,
+            "category":"bracelet",
+            "material" :"platinum" ,
+            "brand" : "piaget"
           },
           {
             "id": "j5",
             "name": "Crown",
             "image": "./images/jewelries/crown-g5ce02adaa_1280.jpg",
             "description": "A beautiful crown with diamonds.",
-            "price": 299.99,
+            "price": 899.99,
             "discountedPrice": null,
-            "rating": 4.7,
-            "category": "crown"
+            "rating": 4,
+            "category": "crown",
+            "material" :"gold",
+            "brand" : "tamara comolli"
           },
           {
             "id": "j6",
             "name": "Decor",
             "image": "./images/jewelries/decor-gd4ffd39a7_1280.jpg",
             "description": "A beautiful decor.",
-            "price": 79.99,
+            "price": 69.99,
             "discountedPrice": null,
-            "rating": 4.3,
-            "category": "decor"
+            "rating": 3,
+            "category": "decor",
+            "material" :"bronze",
+            "brand" : "shamballa"
           },
           {
             "id": "j7",
@@ -203,58 +227,71 @@
             "description": "Shiny Diamond.",
             "price": 299.99,
             "discountedPrice": null,
-            "rating": 4.7,
-            "category": "decor"
+            "rating": 2,
+            "category": "decor",
+            "material":"diamond",
+            "brand" : "boucheron"
           },
           {
             "id": "j8",
             "name": "Golden Jewelries",
             "image": "./images/jewelries/indian-g4552b8050_1280.jpg",
             "description": "Idnian golden jewelries.",
-            "price": 79.99,
+            "price": 479.99,
             "discountedPrice": null,
-            "rating": 4.3,
-            "category":"bracelet"
+            "rating": 5,
+            "category":"bracelet",
+            "material" :"gold",
+            "brand" : "messika"
           },
           {
             "id": "j9",
             "name": "Heart Necklace",
             "image": "./images/jewelries/necklace-g4b5925aca_1280.jpg",
             "description": "An elegant heart shaped necklace .",
-            "price": 299.99,
+            "price": 99.99,
             "discountedPrice": null,
             "rating": 4.7,
-            "category":"necklace"
+            "category":"necklace",
+            "material": "platinum",
+            "brand" : "piaget"
           },
           {
             "id": "j10",
             "name": "Pendant",
-            "image": "./images/jewerlies/pendant-gc9f4f6b98_1280.jpg",
+            "image": "./images/jewelries/pendant-gc9f4f6b98_1280.jpg",
             "description": "A beautiful pendant heart shaped with crown on top of it.",
-            "price": 79.99,
+            "price": 189.99,
             "discountedPrice": null,
             "rating": 4.3,
-            "category":"necklace"
+            "category":"necklace",
+            "material":"bronze",
+            "brand" : "boucheron"
           },
           {
             "id": "j11",
             "name": "Beautiful Ring",
-            "image": "./images/jewerlies/ring-g43d89f099_1280.jpg",
+            "image": "./images/jewelries/ring-g43d89f099_1280.jpg",
             "description": "An elegant ring with sparkling diamonds.",
             "price": 299.99,
             "discountedPrice": null,
             "rating": 4.7,
-            "category":"ring"
+            "category":"ring",
+            "material": "diamond",
+            "brand" : "messika"
           },
           {
             "id": "j12",
             "name": "The One Ring ",
-            "image": "./images/jewerlies/ring-g94466ef35_1280.jpg",
+            "image": "./images/jewelries/ring-g94466ef35_1280.jpg",
             "description": "One ring to rule them all.",
             "price": 79.99,
             "discountedPrice": null,
             "rating": 4.3,
-            "category":"ring"
+            "category":"ring",
+            "material":"gold",
+            "brand" : "shamballa"
+
           }
         
       ],
@@ -266,8 +303,10 @@
           "description": "Fashionable sunglasses for a trendy look.",
           "price": 39.99,
           "discountedPrice": null,
-          "rating": 4.4,
-          "target": "women"
+          "rating": 2,
+          "category": "women",
+          "brand": "ray-ban",
+          "material":"plastic"
         },
         {
           "id": "g2",
@@ -276,8 +315,11 @@
           "description": "Fashionable sunglasses with pink glasses.",
           "price": 59.99,
           "discountedPrice": null,
-          "rating": 4.6,
-          "target": "women"
+          "rating": 5,
+          "category": "women",
+          "brand": "versace",
+          "material":"metal"
+          
         },
         {
             "id": "g3",
@@ -286,8 +328,10 @@
             "description": "A high-quality Aviator sunglasses.",
             "price": 39.99,
             "discountedPrice": null,
-            "rating": 4.4,
-            "target": "men"
+            "rating": 4,
+            "category": "men",
+            "brand": "prada",
+            "material":"metal"
           },
           {
             "id": "g4",
@@ -296,8 +340,10 @@
             "description": "Stylish glasses to read your favourites books.",
             "price": 59.99,
             "discountedPrice": null,
-            "rating": 4.6,
-            "target": "unisex"
+            "rating": 5,
+            "category": "unisex",
+            "brand": "carrera",
+            "material":"plastic"
           },
           {
             "id": "g5",
@@ -306,8 +352,10 @@
             "description": "Summer trendy glasses.",
             "price": 39.99,
             "discountedPrice": null,
-            "rating": 4.4,
-            "target": "women"
+            "rating": 3,
+            "category": "women",
+            "brand": "versace",
+            "material":"plastic"
           },
           {
             "id": "g6",
@@ -316,8 +364,10 @@
             "description": "Vintage sunglasses for a trendy look.",
             "price": 59.99,
             "discountedPrice": null,
-            "rating": 4.6,
-            "target": "women"
+            "rating": 4,
+            "category": "women",
+            "brand": "ray-ban",
+            "material":"plastic"
           },
           {
             "id": "g7",
@@ -326,8 +376,10 @@
             "description": "A high-quality sunglasses for men.",
             "price": 39.99,
             "discountedPrice": null,
-            "rating": 4.4,
-            "target": "men"
+            "rating": 2,
+            "category": "men",
+            "brand": "prada",
+            "material":"metal"
           },
           {
             "id": "g8",
@@ -336,8 +388,10 @@
             "description": "Sports Sunglasses for your daily activities.",
             "price": 59.99,
             "discountedPrice": null,
-            "rating": 4.6,
-            "target":"unisex"
+            "rating": 1,
+            "category":"unisex",
+            "brand": "carrera",
+            "material":"plastic"
           },
           {
             "id": "g9",
@@ -346,8 +400,10 @@
             "description": "A high-quality Elegant Sunglasses.",
             "price": 39.99,
             "discountedPrice": null,
-            "rating": 4.4,
-            "target":"unisex"
+            "rating": 5,
+            "category":"unisex",
+            "brand": "versace",
+            "material":"metal"
           },
           {
             "id": "g10",
@@ -356,8 +412,10 @@
             "description": "Fashionable sunglasses for a trendy look.",
             "price": 59.99,
             "discountedPrice": null,
-            "rating": 4.6,
-            "target":"unisex"
+            "rating": 4,
+            "category":"unisex",
+            "brand": "prada",
+            "material":"metal"
           },
           {
             "id": "g11",
@@ -366,8 +424,10 @@
             "description": "A high-quality sports look sunglasses.",
             "price": 39.99,
             "discountedPrice": null,
-            "rating": 4.4,
-            "target":"men"
+            "rating": 3,
+            "category":"men",
+            "brand": "carrera",
+            "material":"plastic"
           },
           {
             "id": "g12",
@@ -376,8 +436,10 @@
             "description": "Fashionable wood frames sunglasses for a trendy look.",
             "price": 59.99,
             "discountedPrice": null,
-            "rating": 4.6,
-            "target":"men"
+            "rating": 2,
+            "category":"men",
+            "brand": "ray-ban",
+            "material":"wood"
           }
         
       ]

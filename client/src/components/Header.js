@@ -61,17 +61,17 @@ export default function Header() {
           <MDBCollapse show={showBasic} navbar>
             <MDBNavbarNav
               fullWidth={false}
-              className="mb-2 mb-lg-0 align-items-center"
+              className="mb-2 mb-lg-0  d-flex flex-row justify-content-evenly "
             >
               <MDBNavbarItem active></MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink href="/watches">Watches</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="#">Jewelries</MDBNavbarLink>
+                <MDBNavbarLink href="/jewelries">Jewelries</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="#">Glasses</MDBNavbarLink>
+                <MDBNavbarLink href="/glasses">Glasses</MDBNavbarLink>
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>

@@ -16,6 +16,16 @@ app.get("/watches", (req, res) => {
   res.json(watchesData);
 });
 
+app.get("/jewelries", (req, res) => {
+  const jewelriesData = data.categories.jewelries;
+  res.json(jewelriesData);
+});
+
+app.get("/glasses", (req, res) => {
+  const glassesData = data.categories.glasses;
+  res.json(glassesData);
+});
+
 app.listen(PORT, () => {
   console.log(`listening on ${PORT}`);
 });

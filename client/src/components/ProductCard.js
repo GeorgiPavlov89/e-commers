@@ -1,4 +1,5 @@
 import React from "react";
+import Rating from "./Rating";
 import {
   MDBCard,
   MDBCardBody,
@@ -9,7 +10,7 @@ import {
   MDBCardFooter,
   MDBCardGroup,
 } from "mdb-react-ui-kit";
-function ProductCard({ name, description, image, price }) {
+function ProductCard({ name, description, image, price, rating }) {
   return (
     <MDBCard className="h-100">
       <MDBCardImage src={image} position="top" alt="product-image" />
@@ -18,6 +19,7 @@ function ProductCard({ name, description, image, price }) {
         <MDBCardTitle>{name}</MDBCardTitle>
         <MDBCardText>{description}</MDBCardText>
         <MDBCardText>{price} $</MDBCardText>
+        <Rating rating={rating} />
       </MDBCardBody>
       <MDBCardFooter className="d-flex justify-content-center">
         <MDBBtn href="#">Add to Cart</MDBBtn>

@@ -21,14 +21,7 @@ const useCategoryData = (category) => {
     fetchCategoryData(category);
   }, [category]);
 
-  const filterCategoryData = (category, color, price) => {
-    const filteredData = categories[category].filter(
-      (item) => item.color === color && item.price <= price
-    );
-    return filteredData;
-  };
-
-  return { categories, fetchCategoryData, filterCategoryData };
+  return { categories, fetchCategoryData };
 };
 
 export default useCategoryData;

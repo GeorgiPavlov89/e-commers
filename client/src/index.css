@@ -3,9 +3,7 @@ body {
 }
 
 @media (max-width: 767px) {
-  .logo {
-    display: none;
-  }
+  
   
   .product-card-image {
     height: auto; 
@@ -56,4 +54,6 @@ body {
   display: none 
 }
 
-
+.filled-star {
+  color: yellow !important;
+}

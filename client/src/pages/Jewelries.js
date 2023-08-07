@@ -1,18 +1,20 @@
-import React, { useEffect, useState } from "react";
-import ProductCard from "../components/ProductCard";
-import { MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
-import Filter from "../components/Filter";
+import React, { useState, useEffect } from "react";
+import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
+import Filter from "../components/Filter"; // Import your Filter component
+import Sort from "../components/Sort"; // Import your Sort component
+import ProductCard from "../components/ProductCard"; // Import your ProductCard component
 import useCategoryData from "../hooks/useCategoryData";
-import Sort from "../components/Sort";
 
-function Watches() {
-  const { categories } = useCategoryData("watches");
+const Jewelries = () => {
+  const { categories } = useCategoryData("jewelries");
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [selectedMaterials, setSelectedMaterials] = useState([]);
-  const [sortCriteria, setSortCriteria] = useState("priceLowToHigh");
-  const [sortDirection, setSortDirection] = useState("asc");
-
-  const [watchesFound, setWatchesFound] = useState(categories.watches.length);
+  const [sortCriteria, setSortCriteria] = useState("");
+  const [sortDirection, setSortDirection] = useState("");
+  const [jewelriesFound, setJewelriesFound] = useState(
+    categories.jewelries.length
+  );
+  console.log(jewelriesFound);
 
   const filterItems = (items, selectedCategories, selectedMaterials) => {
     return items.filter((item) => {
@@ -28,14 +30,13 @@ function Watches() {
     });
   };
 
-  // Sort Watches
-  const sortWatches = (watches, sortCriteria, sortDirection) => {
-    return watches.slice().sort((a, b) => {
+  const sortJewelries = (jewelries, sortCriteria, sortDirection) => {
+    return jewelries.slice().sort((a, b) => {
       if (sortCriteria === "relevance") {
-        return watches;
-      } else if (sortCriteria === "priceHighToLow") {
-        return sortDirection === "asc" ? a.price - b.price : b.price - a.price;
+        return jewelries;
       } else if (sortCriteria === "priceLowToHigh") {
+        return sortDirection === "asc" ? a.price - b.price : b.price - a.price;
+      } else if (sortCriteria === "priceHighToLow") {
         return sortDirection === "asc" ? b.price - a.price : a.price - b.price;
       } else if (sortCriteria === "brandAZ") {
         return sortDirection === "asc"
@@ -49,43 +50,44 @@ function Watches() {
       return 0;
     });
   };
-
-  //Filter Watches and display them
-  const filteredWatches = filterItems(
-    categories.watches,
+  // Apply Filters and Sorting
+  const filteredJewelries = filterItems(
+    categories.jewelries,
     selectedCategories,
-    selectedMaterials
+    selectedMaterials,
+    jewelriesFound
   );
-  const sortedAndFilteredWatches = sortWatches(
-    filteredWatches,
+  const sortedAndFilteredJewelries = sortJewelries(
+    filteredJewelries,
     sortCriteria,
     sortDirection
   );
 
   // Load More Functionality
   const itemsPerPage = 6;
-  const [displayedWatches, setDisplayedWatches] = useState(itemsPerPage);
+  const [displayedJewelries, setDisplayedJewelries] = useState(itemsPerPage);
 
-  const loadMoreWatches = () => {
-    setDisplayedWatches((prevDisplayed) => prevDisplayed + itemsPerPage);
+  const loadMoreJewelries = () => {
+    setDisplayedJewelries((prevDisplayed) => prevDisplayed + itemsPerPage);
   };
+
   useEffect(() => {
-    setWatchesFound(sortedAndFilteredWatches.length);
-  }, [sortedAndFilteredWatches]);
+    setJewelriesFound(sortedAndFilteredJewelries.length);
+  }, [sortedAndFilteredJewelries]);
 
   return (
-    <MDBContainer fluid className="ms-0 mt-5 ">
+    <MDBContainer fluid className="ms-0 mt-5">
       <MDBRow>
         <MDBCol md="2" size="6" className="filterMobile">
           <Filter
             setSelectedCategories={setSelectedCategories}
             setSelectedMaterials={setSelectedMaterials}
-            setFoundFunction={setWatchesFound}
+            setFoundFunction={setJewelriesFound}
             categories={categories}
             selectedCategories={selectedCategories}
             selectedMaterials={selectedMaterials}
-            componentType="Watches"
-            watchesFound={watchesFound}
+            jewelriesFound={jewelriesFound}
+            componentType="Jewelries"
           />
         </MDBCol>
         <MDBCol className="order-md-1 order-lg-1 order-sm-1 sortMobile">
@@ -98,23 +100,23 @@ function Watches() {
         </MDBCol>
         <MDBCol md="8">
           <MDBRow className="row-cols-2 row-cols-md-3 g-4 mt-5">
-            {sortedAndFilteredWatches
-              .slice(0, displayedWatches)
-              .map((watch) => (
-                <MDBCol key={watch.id}>
+            {sortedAndFilteredJewelries
+              .slice(0, displayedJewelries)
+              .map((jewellery) => (
+                <MDBCol key={jewellery.id}>
                   <ProductCard
-                    name={watch.name}
-                    description={watch.description}
-                    image={watch.image}
-                    price={watch.price}
-                    rating={watch.rating}
+                    name={jewellery.name}
+                    description={jewellery.description}
+                    image={jewellery.image}
+                    price={jewellery.price}
+                    rating={jewellery.rating}
                   />
                 </MDBCol>
               ))}
           </MDBRow>
-          {displayedWatches < sortedAndFilteredWatches.length && (
+          {displayedJewelries < sortedAndFilteredJewelries.length && (
             <div className="text-center mt-3">
-              <button className="btn btn-primary" onClick={loadMoreWatches}>
+              <button className="btn btn-primary" onClick={loadMoreJewelries}>
                 Load More
               </button>
             </div>
@@ -123,6 +125,6 @@ function Watches() {
       </MDBRow>
     </MDBContainer>
   );
-}
+};
 
-export default Watches;
+export default Jewelries;

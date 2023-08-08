@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://jealous-plum-earrings.cyclic.app" || "*",
+    origin: "*",
   })
 );
 app.get("/watches", (req, res) => {

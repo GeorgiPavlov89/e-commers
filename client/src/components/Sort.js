@@ -7,6 +7,7 @@ import {
 } from "mdb-react-ui-kit";
 function Sort({ sortCriteria, setSortCriteria }) {
   const [selectedSortCriteria, setSelectedSortCriteria] = useState("");
+
   const handleSortCriteriaChange = (criteria, e) => {
     setSortCriteria(criteria, e);
     setSelectedSortCriteria(e.currentTarget.textContent);

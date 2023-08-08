@@ -14,8 +14,6 @@ const Jewelries = () => {
   const [jewelriesFound, setJewelriesFound] = useState(
     categories.jewelries.length
   );
-  console.log(jewelriesFound);
-
   const filterItems = (items, selectedCategories, selectedMaterials) => {
     return items.filter((item) => {
       if (
@@ -64,8 +62,8 @@ const Jewelries = () => {
   );
 
   // Load More Functionality
-  const itemsPerPage = 6;
-  const [displayedJewelries, setDisplayedJewelries] = useState(itemsPerPage);
+  const itemsPerPage = 3;
+  const [displayedJewelries, setDisplayedJewelries] = useState(6);
 
   const loadMoreJewelries = () => {
     setDisplayedJewelries((prevDisplayed) => prevDisplayed + itemsPerPage);

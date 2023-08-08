@@ -63,8 +63,8 @@ function Watches() {
   );
 
   // Load More Functionality
-  const itemsPerPage = 6;
-  const [displayedWatches, setDisplayedWatches] = useState(itemsPerPage);
+  const itemsPerPage = 3;
+  const [displayedWatches, setDisplayedWatches] = useState(6);
 
   const loadMoreWatches = () => {
     setDisplayedWatches((prevDisplayed) => prevDisplayed + itemsPerPage);

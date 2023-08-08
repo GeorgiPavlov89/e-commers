@@ -8,9 +8,12 @@ import {
   MDBCardImage,
   MDBBtn,
   MDBCardFooter,
-  MDBCardGroup,
 } from "mdb-react-ui-kit";
 function ProductCard({ name, description, image, price, rating }) {
+  const addProduct = () => {
+    alert("Product Successfully Added");
+  };
+
   return (
     <MDBCard className="h-100">
       <MDBCardImage src={image} position="top" alt="product-image" />
@@ -22,7 +25,9 @@ function ProductCard({ name, description, image, price, rating }) {
         <Rating rating={rating} />
       </MDBCardBody>
       <MDBCardFooter className="d-flex justify-content-center">
-        <MDBBtn href="#">Add to Cart</MDBBtn>
+        <MDBBtn color=" dark" href="#" onClick={addProduct}>
+          Add to Cart
+        </MDBBtn>
       </MDBCardFooter>
     </MDBCard>
   );

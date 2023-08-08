@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
   MDBCheckbox,
   MDBBtn,
@@ -44,9 +44,10 @@ function Filter({
                 <MDBModalTitle>Filter {componentType}</MDBModalTitle>
                 <MDBBtn className="btn-close" onClick={toggleShow}></MDBBtn>
               </MDBModalHeader>
-              <span>By Type</span>
+
               {componentType === "Jewelries" && (
                 <MDBModalBody>
+                  <span>Categories</span>
                   <MDBCheckbox
                     name="flexCheck"
                     value="Necklace"
@@ -124,6 +125,7 @@ function Filter({
               )}
               {componentType === "Watches" && (
                 <MDBModalBody>
+                  <span>By Type</span>
                   <MDBCheckbox
                     name="flexCheck"
                     value="wrist"
@@ -186,6 +188,7 @@ function Filter({
               )}
               {componentType === "Glasses" && (
                 <MDBModalBody>
+                  <span>Categories</span>
                   <MDBCheckbox
                     name="flexCheck"
                     value="men"
@@ -267,7 +270,7 @@ function Filter({
         <div className="ms-3">
           {componentType === "Jewelries" && (
             <>
-              <span>By Type</span>
+              <span>Categories</span>
 
               <MDBCheckbox
                 name="flexCheck"
@@ -405,6 +408,7 @@ function Filter({
           )}
           {componentType === "Glasses" && (
             <>
+              <span>Categories</span>
               <MDBCheckbox
                 name="flexCheck"
                 value="men"

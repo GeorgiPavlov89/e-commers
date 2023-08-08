@@ -61,8 +61,8 @@ function Glasses() {
   );
 
   // Load More Functionality
-  const itemsPerPage = 6;
-  const [displayedGlasses, setDisplayedGlasses] = useState(itemsPerPage);
+  const itemsPerPage = 3;
+  const [displayedGlasses, setDisplayedGlasses] = useState(6);
 
   const loadMoreGlasses = () => {
     setDisplayedGlasses((prevDisplayed) => prevDisplayed + itemsPerPage);

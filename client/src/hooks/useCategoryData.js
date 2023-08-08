@@ -6,7 +6,7 @@ const useCategoryData = (category) => {
 
   const fetchCategoryData = async (category) => {
     try {
-      const response = await fetch(`/${category}`);
+      const response = await fetch(`http://localhost:3001/${category}`);
       const data = await response.json();
       setCategories((prevCategories) => ({
         ...prevCategories,
